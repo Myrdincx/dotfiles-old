@@ -21,7 +21,7 @@ This repo will contain instructions for DEBIAN based systems and ARCH based syst
 First we will install everything we need.
 
 ```
-sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton
+sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd
 ```
 Now, clone the repo with the followign command.
 
@@ -51,7 +51,7 @@ MOD + B - Open Browser (Firefox by default)
 
 ---
 
-## Make changes 
+## Make changes and configuring things
 
 **You are able to make changes to the files and theme in AwesomeWM.**
 
@@ -67,4 +67,10 @@ ls -a
 nano keys.lua
 nano rc.lua
 ```
+
+Install for example Discord with SNAPSTORE
+```
+sudo snapd install discord
+```
+
 
