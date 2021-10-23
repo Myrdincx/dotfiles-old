@@ -5,6 +5,9 @@
 Most of the dotfiles are created by other people.\
 I mostly changed some stuff like shortcuts, extra tools, ...
 
+**The Original DOTS are for BSPWM, AWESOMEWM and I3, but I prefer AWESOMEWM**
+*Dotfiles will only include changes to the AWESOMEWM configuration*
+
 ---
 
 ## Installation
