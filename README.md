@@ -18,7 +18,7 @@ This repo will contain instructions for DEBIAN based systems and ARCH based syst
 First we will install everything we need.
 
 ```
-sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar pulse ranger rofi zathura picom
+sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar pulse ranger rofi zathura picom compton
 ```
 Now, clone the repo with the followign command.
 
@@ -28,11 +28,40 @@ mkdir git && cd git
 git clone https://github.com/Myrdincx/dotfiles.git
 ```
 
-After this, all you have to do is place all the dotfiles in the .config folder.
+After this, logout and change to Awesome.
+Now you can enter the system using AwesomeWM. 
+
+**Interesting shortcuts**
+```
+MOD + SHIFT + R -  Restart Awesome
+MOD + X - Open Terminal (Kitty)
+MOD + E - Open Nautilus (File explorer)
+MOD + B - Open Browser (Firefox by default)
+```
+
+
+
 
 ### Arch:
 
 **ADDING SOON**
 
+---
 
+## Make changes 
+
+**You are able to change the keys, rc file and theme in AwesomeWM.**
+
+Make sure you are in the home directory.
+
+```
+cd .config
+cd awesome
+ls -a
+
+*Now you are able to change things by using nano or vim*
+
+nano keys.lua
+nano rc.lua
+```
 
