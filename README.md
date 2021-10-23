@@ -21,7 +21,7 @@ This repo will contain instructions for DEBIAN based systems and ARCH based syst
 First we will install everything we need.
 
 ```
-sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar pulse ranger rofi zathura picom compton
+sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton
 ```
 Now, clone the repo with the followign command.
 
