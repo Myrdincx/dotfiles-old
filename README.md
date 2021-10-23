@@ -50,7 +50,7 @@ MOD + B - Open Browser (Firefox by default)
 
 ## Make changes 
 
-**You are able to change the keys, rc file and theme in AwesomeWM.**
+**You are able to make changes to the files and theme in AwesomeWM.**
 
 Make sure you are in the home directory.
 
