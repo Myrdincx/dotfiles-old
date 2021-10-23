@@ -25,9 +25,12 @@ Now, clone the repo with the followign command.
 ```
 cd Downloads
 mkdir git && cd git
-git clone https://github.com/Myrdincx/dotfiles.git
+
 ```
 
-After this, all you have to do is place all the dotfiles in the .config folder
+After this, all you have to do is place all the dotfiles in the .config folder.
+
+```
+
 
 
