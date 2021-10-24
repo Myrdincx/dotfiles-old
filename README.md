@@ -65,7 +65,7 @@ sudo chmod +x install.sh
 Now we can install the script with the following command.
 
 ```
-sudo ./install.sh 
+./install.sh 
 ```
 
 If you get any errors based on folders not being there.
