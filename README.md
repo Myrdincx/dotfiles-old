@@ -71,6 +71,37 @@ Now we can install the script with the following command.
 If you get any errors based on folders not being there.
 Check if you actually created them, as said before.
 
+**FIXING PROBLEMS AND BUGS**
+
+The main problem will probably be Polybar. 
+We first have to make sure that the polybar launch.sh is an executable.
+Make sure you are in the home directory.
+```
+cd .config
+chmod +x launch.sh
+./launch.sh
+```
+You will probably see a few errors.
+One of them will be that the internet icon will not show up.
+To fix this, we will have to reconfigure the modules.ini file.
+Make sure you are in the Polybar directory.
+```
+nano modules.ini
+```
+Now scroll down until you see 
+```
+[Modules/Network]
+```
+Now look for the interface and change it to the correct interface.
+```
+Before:
+
+interface = wlp1s0
+
+After (Example):
+
+interface = enp0s3
+```
 
 
 
