@@ -82,27 +82,12 @@ chmod +x launch.sh
 ./launch.sh
 ```
 You will probably see a few errors.
-One of them will be that the internet icon will not show up.
-To fix this, we will have to reconfigure the modules.ini file.
+These can be fixed in the modules.ini file.
+You can access the file by the following command.
 Make sure you are in the Polybar directory.
 ```
 nano modules.ini
 ```
-Now scroll down until you see 
-```
-[Modules/Network]
-```
-Now look for the interface and change it to the correct interface.
-```
-Before:
-
-interface = wlp1s0
-
-After (Example):
-
-interface = enp0s3
-```
-
-
-
+After fixing everything, press the following keys.\
+*MOD + SHIFT + R*
 
