@@ -57,7 +57,11 @@ git clone https://github.com/Myrdincx/dotfiles.git && cd dotfiles
 ```
 
 **INSTALLATION**
-
+We first have to make sure that the install command is an executable.
+We can do this by using the chmod command.
+```
+sudo chmod +x install.sh
+```
 Now we can install the script with the following command.
 
 ```
