@@ -91,3 +91,57 @@ nano modules.ini
 After fixing everything, press the following keys.\
 *MOD + SHIFT + R*
 
+### INSTALLING EXTRA TOOLS (OPTIONAL)
+
+We now have the base installation of the system, we can now start installing some extra tools if wanted.
+I'm going to show you how to install the following tools.
+
+Tools | What they do
+------------ | -------------
+ranger | File manager accessible in the Terminal 
+bpytop | A cool looking htop alternative
+snapcraft | Package installer
+snapcraft Discord | Discord installed with the snapcraft package installer
+Manas140 SH scripts | A bunch of SH scripts made by [Manas140](https://github.com/Manas140/sh)
+Manas140 Fetch script | A simplistic fetch script made by [Manas140](https://github.com/Manas140/fetch)
+Manas140 Pluck script | A simplistic Color Picker script made by [Manas140](https://github.com/Manas140/pluck)
+
+**Ranger**
+```
+sudo apt install ranger
+```
+
+**bpytop**
+```
+sudo apt install bpytop
+```
+
+**Snapcraft**
+```
+sudo apt update
+sudo apt install snapd
+snap install core
+```
+
+**Snapcraft Discord**
+```
+sudo snap install discord
+```
+
+**Manas140 SH scripts**
+```
+git clone https://github.com/manas140/sh.git && cd sh
+sudo ./install.sh i
+```
+**Manas140 Fetch script**
+```
+git clone https://github.com/Manas140/fetch.git && cd fetch
+./install.sh i
+```
+**Manas140 Pluck script**
+```
+sudo apt install xinput xdotool imagemagick libnotify-bin xclip
+mkdir /tmp/pluck
+git clone https://github.com/Manas140/pluck.git && cd pluck
+./install.sh i
+```
