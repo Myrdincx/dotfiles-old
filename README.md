@@ -2,11 +2,13 @@
 
 ## Short information about the dotfiles.
 
-Most of the dotfiles are created by other people.\
-I mostly changed some stuff like shortcuts, extra tools, ...
+These dotfiles are modified, I simply changed a few shortcuts and used compton instead of rofi (because of some errors).
+
+**Check the [original creator](https://github.com/Manas140/dotfiles) here.**
+
 
 **The Original DOTS are for BSPWM, AWESOMEWM and I3, but I prefer AWESOMEWM**\
-*Dotfiles will only include changes to the AWESOMEWM configuration*
+*These dotfiles will only include changes to the AWESOMEWM configuration*
 
 ---
 
