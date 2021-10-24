@@ -30,7 +30,7 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 We will start with installing a few things that we will need to make the system work.
 
 ```
-sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome 
+sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome feh i3lock-color
 ```
 
 The dotfiles will need a few extra directories on your pc.
