@@ -44,6 +44,7 @@ mkdir ~/.local/bin/
 
 We will also have to download this repository.
 I prefer the Download folder for this.
+To do this, make sure you are in the *home* directory.
 
 *The following command will create a git folder inside of the Download folder*\
 *It will download the repository right after, and cd into it.*
