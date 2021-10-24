@@ -101,5 +101,5 @@ Install for example Discord with SNAPSTORE
 ```
 sudo snapd install discord
 ```
-
+You might have to log-out and back in again, or you possibly have to *MOD + SHIFT + R*
 
