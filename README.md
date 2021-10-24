@@ -25,6 +25,8 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
 [![ArchLinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](#arch)
 
+- Coming soon
+
 _**FUTURE FIXES CAN BE ADDED**_
 ---
 
