@@ -32,7 +32,7 @@ _**FUTURE FIXES CAN BE ADDED**_
 
 ## Debian [🔝](#menu)
 
-### SETUP
+### SETUP [🔝](#menu)
 
 We will start with installing a few things that we will need to make the system work.
 
@@ -63,7 +63,7 @@ cd git
 git clone https://github.com/Myrdincx/dotfiles.git && cd dotfiles
 ```
 
-### INSTALLATION
+### INSTALLATION [🔝](#menu)
 We first have to make sure that the install command is an executable.\
 We can do this by using the chmod command.
 ```
@@ -78,7 +78,7 @@ Now we can install the script with the following command.
 If you get any errors based on folders not being there.\
 Check if you actually created them, as said before.
 
-### FIXING PROBLEMS AND BUGS
+### FIXING PROBLEMS AND BUGS [🔝](#menu)
 
 The main problem will probably be Polybar. \
 We first have to make sure that the polybar launch.sh is an executable.\
@@ -98,7 +98,7 @@ nano modules.ini
 After fixing everything, press the following keys.\
 *MOD + SHIFT + R*
 
-### INSTALLING EXTRA TOOLS (OPTIONAL)
+### INSTALLING EXTRA TOOLS (OPTIONAL) [🔝](#menu)
 
 We now have the base installation of the system, we can now start installing some extra tools if wanted.\
 I'm going to show you how to install the following tools.
