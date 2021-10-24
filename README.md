@@ -25,7 +25,7 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
 ## Debian
 
-**SETUP**
+### SETUP
 
 We will start with installing a few things that we will need to make the system work.
 
@@ -56,7 +56,7 @@ cd git
 git clone https://github.com/Myrdincx/dotfiles.git && cd dotfiles
 ```
 
-**INSTALLATION**\
+### INSTALLATION
 We first have to make sure that the install command is an executable.\
 We can do this by using the chmod command.
 ```
@@ -71,7 +71,7 @@ Now we can install the script with the following command.
 If you get any errors based on folders not being there.
 Check if you actually created them, as said before.
 
-**FIXING PROBLEMS AND BUGS**
+### FIXING PROBLEMS AND BUGS
 
 The main problem will probably be Polybar. 
 We first have to make sure that the polybar launch.sh is an executable.
