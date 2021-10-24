@@ -23,7 +23,7 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 _**FUTURE FIXES CAN BE ADDED**_
 ---
 
-## Debian
+## Debian [🔝](#menu)
 
 ### SETUP
 
@@ -146,7 +146,7 @@ git clone https://github.com/Manas140/pluck.git && cd pluck
 ./install.sh i
 ```
 
-## Arch
+## Arch [🔝](#menu)
 
 **COMING SOON**
 
