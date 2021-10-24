@@ -75,7 +75,7 @@ awful.rules.rules = {
   }
 }
 
--- kanker borders ofzo idfk
+-- Round Borders, doesn't affect ROFI or POLYBAR
 client.connect_signal("manage", function (c)
     c.shape = function(cr,w,h)
         gears.shape.rounded_rect(cr,w,h,15)
