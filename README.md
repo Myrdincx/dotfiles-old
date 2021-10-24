@@ -17,8 +17,6 @@ These dotfiles are modified, I simply changed a few shortcuts and used compton i
 First of all, you will need some tools, depending on your OS, you will have to follow different steps.\
 This repo will contain instructions for DEBIAN based systems and ARCH based systems.
 
-
-
 ### Debian:
 First we will install everything we need.
 
@@ -26,7 +24,7 @@ First we will install everything we need.
 sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome 
 
 ```
-Now, clone the repo with the followign command.
+Now, clone the repo with the following command.
 
 ```
 cd Downloads
@@ -34,8 +32,9 @@ mkdir git && cd git
 git clone https://github.com/Myrdincx/dotfiles.git
 ```
 
-After this, logout and change to Awesome.\
-Now you can enter the system using AwesomeWM. 
+You can now move the needed files to the right directories. 
+The Main Dotfiles aswell as the nanorc, bashrc and zshrc should be in the .config file.
+The git folder can be placed wherever you want. 
 
 **Interesting shortcuts**
 ```
