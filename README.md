@@ -43,7 +43,36 @@ MOD + E - Open Nautilus (File explorer)
 MOD + B - Open Browser (Firefox by default)
 ```
 
+**Possible Bugs and Fixes**
 
+
+
+There is a possibility that your polybar will not show.
+First of all try to run the polybar command by going into the folder and launching it.
+*Make sure you are in the home directory*
+
+```
+cd .config
+cd polybar
+./launch.sh
+```
+If this fails, you might have to make launch.sh an executable.
+```
+sudo chmod +x launch.sh
+```
+Now try to run the command again.
+
+** Polybar error message**
+You might get an error message when the polybar launches, to fix this try to configure the updates.sh file.
+```
+cd .config
+cd polybar
+nano updates.sh
+
+*remove the xbps-install -Mun and replace with:
+apt update
+```
+Now press *MOD + SHIFT + R* to restart AwesomeWM
 
 
 ### Arch:
