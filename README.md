@@ -33,7 +33,7 @@ We will start with installing a few things that we will need to make the system 
 sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome feh
 ```
 
-The dotfiles will need a few extra directories on your pc.
+The dotfiles will need a few extra directories on your pc.\
 We can easily create those in case they aren't there yet.
 
 ```
@@ -68,22 +68,22 @@ Now we can install the script with the following command.
 ./install.sh 
 ```
 
-If you get any errors based on folders not being there.
+If you get any errors based on folders not being there.\
 Check if you actually created them, as said before.
 
 ### FIXING PROBLEMS AND BUGS
 
-The main problem will probably be Polybar. 
-We first have to make sure that the polybar launch.sh is an executable.
+The main problem will probably be Polybar. \
+We first have to make sure that the polybar launch.sh is an executable.\
 Make sure you are in the home directory.
 ```
 cd .config
 chmod +x launch.sh
 ./launch.sh
 ```
-You will probably see a few errors.
-These can be fixed in the modules.ini file.
-You can access the file by the following command.
+You will probably see a few errors.\
+These can be fixed in the modules.ini file.\
+You can access the file by the following command.\
 Make sure you are in the Polybar directory.
 ```
 nano modules.ini
@@ -93,7 +93,7 @@ After fixing everything, press the following keys.\
 
 ### INSTALLING EXTRA TOOLS (OPTIONAL)
 
-We now have the base installation of the system, we can now start installing some extra tools if wanted.
+We now have the base installation of the system, we can now start installing some extra tools if wanted.\
 I'm going to show you how to install the following tools.
 
 Tools | What they do
