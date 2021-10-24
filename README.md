@@ -5,7 +5,7 @@
 Most of the dotfiles are created by other people.\
 I mostly changed some stuff like shortcuts, extra tools, ...
 
-**The Original DOTS are for BSPWM, AWESOMEWM and I3, but I prefer AWESOMEWM**
+**The Original DOTS are for BSPWM, AWESOMEWM and I3, but I prefer AWESOMEWM**\
 *Dotfiles will only include changes to the AWESOMEWM configuration*
 
 ---
@@ -32,7 +32,7 @@ mkdir git && cd git
 git clone https://github.com/Myrdincx/dotfiles.git
 ```
 
-After this, logout and change to Awesome.
+After this, logout and change to Awesome.\
 Now you can enter the system using AwesomeWM. 
 
 **Interesting shortcuts**
@@ -43,9 +43,13 @@ MOD + E - Open Nautilus (File explorer)
 MOD + B - Open Browser (Firefox by default)
 ```
 
+### Arch:
+
+**ADDING SOON**
+
+---
+
 **Possible Bugs and Fixes**
-
-
 
 There is a possibility that your polybar will not show.
 First of all try to run the polybar command by going into the folder and launching it.
@@ -73,11 +77,6 @@ nano updates.sh
 apt update
 ```
 Now press *MOD + SHIFT + R* to restart AwesomeWM
-
-
-### Arch:
-
-**ADDING SOON**
 
 ---
 
