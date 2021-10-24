@@ -20,7 +20,7 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
 [![ArchLinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](#arch)
 
-
+***FUTURE FIXES CAN BE ADDED***
 ---
 
 ## Debian
@@ -145,3 +145,9 @@ mkdir /tmp/pluck
 git clone https://github.com/Manas140/pluck.git && cd pluck
 ./install.sh i
 ```
+
+## Arch
+
+**COMING SOON**
+
+
