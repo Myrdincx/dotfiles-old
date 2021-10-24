@@ -1,106 +1,72 @@
 ### These are all my dotfiles :>
 
-## Short information about the dotfiles.
+## Information about the dotfiles.
 
-These dotfiles are modified, I simply changed a few shortcuts and used compton instead of rofi (because of some errors).
+These dotfiles are modified, I simply changed a few shortcuts and used compton instead of rofi because of some errors I had with my system.
 
-**Check the [original creator](https://github.com/Manas140/dotfiles) here.**
+You can check the [original creator](https://github.com/Manas140/dotfiles) here.
 
+The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
-**The Original DOTS are for BSPWM, AWESOMEWM and I3, but I prefer AWESOMEWM**\
-*These dotfiles will only include changes to the AWESOMEWM configuration*
+*This repository only includes modifications made to the AwesomeWM configuration.*
 
 ---
 
-## Installation
+## Menu
 
-First of all, you will need some tools, depending on your OS, you will have to follow different steps.\
-This repo will contain instructions for DEBIAN based systems and ARCH based systems.
+### Installation 
 
-### Debian:
-First we will install everything we need.
+[![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](#debian)
+
+[![ArchLinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](#arch)
+
+
+---
+
+## Debian
+
+**SETUP**
+
+We will start with installing a few things that we will need to make the system work.
 
 ```
 sudo apt install git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome 
+```
+
+The dotfiles will need a few extra directories on your pc.
+We can easily create those in case they aren't there yet.
 
 ```
-Now, clone the repo with the following command.
+mkdir ~/.fonts
+mkdir ~/Pictures/Wallpapers
+mkdir ~/.local/bin/
+```
+
+We will also have to download this repository.
+I prefer the Download folder for this.
+
+*The following command will create a git folder inside of the Download folder*\
+*It will download the repository right after, and cd into it.*
 
 ```
 cd Downloads
-mkdir git && cd git
-git clone https://github.com/Myrdincx/dotfiles.git
+mkdir git
+cd git
+git clone https://github.com/Myrdincx/dotfiles.git && cd dotfiles
 ```
 
-You can now move the needed files to the right directories. 
-The Main Dotfiles aswell as the nanorc, bashrc and zshrc should be in the .config file.
-The git folder can be placed wherever you want. 
+**INSTALLATION**
 
-**Interesting shortcuts**
-```
-MOD + SHIFT + R -  Restart Awesome
-MOD + X - Open Terminal (Kitty)
-MOD + E - Open Nautilus (File explorer)
-MOD + B - Open Browser (Firefox by default)
-```
-
-### Arch:
-
-**ADDING SOON**
-
----
-
-**Possible Bugs and Fixes**
-
-There is a possibility that your polybar will not show.
-First of all try to run the polybar command by going into the folder and launching it.
-*Make sure you are in the home directory*
+Now we can install the script with the following command.
 
 ```
-cd .config
-cd polybar
-./launch.sh
-```
-If this fails, you might have to make launch.sh an executable.
-```
-sudo chmod +x launch.sh
-```
-Now try to run the command again.
-
-** Polybar error message**
-You might get an error message when the polybar launches, to fix this try to configure the updates.sh file.
-```
-cd .config
-cd polybar
-nano updates.sh
-
-*remove the xbps-install -Mun and replace with:
-apt update
-```
-Now press *MOD + SHIFT + R* to restart AwesomeWM
-
----
-
-## Make changes and configuring things
-
-**You are able to make changes to the files and theme in AwesomeWM.**
-
-Make sure you are in the home directory.
-
-```
-cd .config
-cd awesome
-ls -a
-
-*Now you are able to change things by using nano or vim*
-
-nano keys.lua
-nano rc.lua
+sudo ./install.sh 
 ```
 
-Install for example Discord with SNAPSTORE
-```
-sudo snapd install discord
-```
-You might have to log-out and back in again, or you possibly have to *MOD + SHIFT + R*
+If you get any errors based on folders not being there.
+Check if you actually created them, as said before.
+
+
+
+
 
