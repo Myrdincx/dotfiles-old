@@ -78,6 +78,8 @@ Now we can install the script with the following command.
 If you get any errors based on folders not being there.\
 Check if you actually created them, as said before.
 
+**Now log-out and log back into AwesomeWM**
+
 ### FIXING PROBLEMS AND BUGS [🔝](#menu)
 
 The main problem will probably be Polybar. \
@@ -213,6 +215,7 @@ Now, we can install the script with the following command.
 If you get any errors based on folders not being there.\
 Check if you actually created them, as said before.
 
+**Now log-out and log back into AwesomeWM**
 
 ### FIXING PROBLEMS AND BUGS [🔝](#menu)
 
