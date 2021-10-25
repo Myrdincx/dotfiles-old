@@ -173,7 +173,7 @@ makepkg -si
 ```
 Now that yay is installed, we can continue installing the rest of things we need.
 ```
-yay -S git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock-fancy xclip qt5-styleplugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-applet policykit-1-gnome feh ttf-roboto polkit-gnome 
+yay -S git python3 kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock-fancy xclip qt5-styleplugins materia-gtk-theme lxappearance flameshot nautilus xfce4-power-manager pnmixer network-manager-applet feh ttf-roboto polkit-gnome 
 ```
 The dotfiles require you to have a few folders on your pc.\
 We can easily create them with the following command.
