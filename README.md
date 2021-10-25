@@ -27,9 +27,9 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
 - Coming soon
 
-[![ArchLinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)]
-[![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)]
-- Important keybinds 
+[![ArchLinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](#important-keybinds-)
+[![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](#important-keybinds-)
+- [Important keybinds](#important-keybinds-) 
 
 _**FUTURE FIXES CAN BE ADDED**_
 ---
