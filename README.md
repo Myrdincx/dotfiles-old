@@ -27,12 +27,12 @@ The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
 - [Setup](#setup--1)
 - [Installation](#installation--1)
-- [Fixing problems and bugs](#fixing-problems-and-bugs--1)
-- [Installing extra tools (optional)](#installing-extra-tools-optional--1)
+- [Fixing problems and bugs](#fixing-problems-and-bugs--1) 
+- [Installing extra tools (optional)](#installing-extra-tools-optional--1) - Adding soon
 
 [![ArchLinux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)](#important-keybinds-)
 [![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)](#important-keybinds-)
-- [Important keybinds](#important-keybinds-) 
+- [Important keybinds](#important-keybinds-) - Adding soon
 
 _**FUTURE FIXES CAN BE ADDED**_
 ---
@@ -257,10 +257,10 @@ After fixing everything, press the following keys to restart AwesomeWM.
 
 ### INSTALLING EXTRA TOOLS (OPTIONAL) [🔝](#menu)
 
-
+**Coming Soon**
 
 
 ## IMPORTANT KEYBINDS [🔝](#menu)
 
 
-
+**Coming Soon**
