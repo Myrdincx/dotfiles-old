@@ -245,8 +245,7 @@ We will first change the update.sh file.\
 ```
 nano updates.sh
 
-*Now change* 
-apt update to pacman -S
+Now remove the apt update
 ```
 You can also change modules by editing the modules.ini file.
 ```
