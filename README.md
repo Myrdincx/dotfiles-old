@@ -254,3 +254,11 @@ After fixing everything, press the following keys to restart AwesomeWM.
 
 
 ### INSTALLING EXTRA TOOLS (OPTIONAL) [🔝](#menu)
+
+
+
+
+## IMPORTANT KEYBINDS [🔝](#menu)
+
+
+
