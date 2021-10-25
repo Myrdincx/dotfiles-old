@@ -221,6 +221,7 @@ We first have to make sure that the Polybar launch.sh is an executable.\
 Make sure you are in the home directory.
 ```
 cd .config
+cd polybar
 chmod +x launch.sh 
 chmod +x updates.sh
 ./launch.sh
