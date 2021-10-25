@@ -220,7 +220,10 @@ Check if you actually created them, as said before.
 ### FIXING PROBLEMS AND BUGS [🔝](#menu)
 
 The main problem will probably be Polybar.\
-We first have to make sure that the Polybar launch.sh is an executable.\
+We first have to make sure that the Polybar is installed and that the launch.sh is an executable.\
+```
+yay -S polybar
+```
 Make sure you are in the home directory.
 ```
 cd .config
