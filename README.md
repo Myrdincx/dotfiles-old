@@ -86,6 +86,7 @@ Make sure you are in the home directory.
 ```
 cd .config
 chmod +x launch.sh
+chmod +x updates.sh
 ./launch.sh
 ```
 You will probably see a few errors.\
@@ -197,7 +198,49 @@ git clone https://github.com/Myrdincx/dotfiles.git && cd dotfiles
 
 ### INSTALLATION [🔝](#menu)
 
+We first have to make sure tht the install command is an executable.
+We can do this by using the chmod command.
+
+```
+sudo chmod +x install.sh
+
+```
+Now, we can install the script with the following command.
+
+```
+./install.sh 
+```
+If you get any errors based on folders not being there.\
+Check if you actually created them, as said before.
+
 
 ### FIXING PROBLEMS AND BUGS [🔝](#menu)
+
+The main problem will probably be Polybar.\
+We first have to make sure that the Polybar launch.sh is an executable.\
+Make sure you are in the home directory.
+```
+cd .config
+chmod +x launch.sh 
+chmod +x updates.sh
+./launch.sh
+```
+You will probably see a few errors.\
+These can be fixed easily.\
+We will first change the update.sh file.\
+*Make sure you are in the Polybar folder.*
+```
+nano updates.sh
+
+*Now change* 
+apt update to pacman -S
+```
+You can also change modules by editing the modules.ini file.
+```
+nano modules.ini
+```
+After fixing everything, press the following keys to restart AwesomeWM.
+*MOD + SHIFT + R*
+
 
 ### INSTALLING EXTRA TOOLS (OPTIONAL) [🔝](#menu)
