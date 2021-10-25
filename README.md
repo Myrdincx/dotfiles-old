@@ -205,7 +205,6 @@ We can do this by using the chmod command.
 
 ```
 sudo chmod +x install.sh
-
 ```
 Now, we can install the script with the following command.
 
