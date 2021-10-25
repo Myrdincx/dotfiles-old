@@ -157,7 +157,7 @@ git clone https://github.com/Manas140/pluck.git && cd pluck
 
 ### SETUP [🔝](#menu)
 
-We will start by installing a few things that we will need to make the system work.
+We will start by installing a few things that we will need to make the system work.\
 Make sure you have git installed, if this is not the case please follow the following instruction.
 ```
 sudo pacman -S git
@@ -173,11 +173,30 @@ makepkg -si
 ```
 Now that yay is installed, we can continue installing the rest of things we need.
 ```
-yay -S git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome feh
+yay -S git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock-fancy xclip qt5-styleplugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-applet policykit-1-gnome feh ttf-roboto polkit-gnome 
+```
+The dotfiles require you to have a few folders on your pc.\
+We can easily create them with the following command.
+```
+mkdir ~/.fonts
+mkdir ~/Pictures/Wallpapers
+mkdir ~/.local/bin/
+```
+We will also have to download this repository in order to use it.\
+I prefer the download folder with a git folder in there.\
+To do this, make sure you are in the home directory.
 
+*The following command will create a git folder inside of the Download folder
+It will download the repository right after, and cd into it.*
+```
+cd Downloads
+mkdir git
+cd git
+git clone https://github.com/Myrdincx/dotfiles.git && cd dotfiles
 ```
 
 ### INSTALLATION [🔝](#menu)
+
 
 ### FIXING PROBLEMS AND BUGS [🔝](#menu)
 
