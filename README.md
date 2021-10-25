@@ -155,6 +155,30 @@ git clone https://github.com/Manas140/pluck.git && cd pluck
 
 ## Arch [🔝](#menu)
 
-**COMING SOON**
+### SETUP [🔝](#menu)
 
+We will start by installing a few things that we will need to make the system work.
+Make sure you have git installed, if this is not the case please follow the following instruction.
+```
+sudo pacman -S git
+```
+We are now able to install YAY.
+```
+cd Downloads
+mkdir git && cd git
+sudo git clone https://aur.archlinux.org/yay.git
+sudo chown -R  <nameofuserhere>:users yay
+cd yay
+makepkg -si
+```
+Now that yay is installed, we can continue installing the rest of things we need.
+```
+yay -S git python3 python3-pip kitty awesome bpytop bspwm cava dunst i3 nautilus polybar ranger rofi zathura picom compton snapd i3lock xclip qt5-style-plugins materia-gtk-theme lxappearance xbacklight flameshot nautilus xfce4-power-manager pnmixer network-manager-gnome policykit-1-gnome feh
 
+```
+
+### INSTALLATION [🔝](#menu)
+
+### FIXING PROBLEMS AND BUGS [🔝](#menu)
+
+### INSTALLING EXTRA TOOLS (OPTIONAL) [🔝](#menu)
