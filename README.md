@@ -4,7 +4,7 @@
 
 These dotfiles are modified, I simply changed a few shortcuts and used compton instead of rofi because of some errors I had with my system.
 
-You can check the [original creator](https://github.com/Manas140/dotfiles) here.
+You can check the [original creator](https://github.com/Manas140/dotfiles) here. *note: they have changed their dotfiles, so they dont really look alike anymore*
 
 The original dotfiles have 3 configurations for AwesomeWM, BSPWM and I3.
 
